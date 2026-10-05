@@ -39,8 +39,8 @@ For more details, please check our [arXiv](https://arxiv.org/pdf/2303.01480.pdf)
 
 ## Updates
 - [x] 03/2023, init repository.
-- [x] 04/2023, release front-view DeLiVER. Download from [**GoogleDrive**](https://drive.google.com/file/d/1P-glCmr-iFSYrzCfNawgVI9qKWfP94pm/view?usp=share_link).
-- [x] 04/2023, release CMNeXt model weights. Download from [**GoogleDrive**](https://drive.google.com/drive/folders/1MZaaZ5_rEVSjns3TBM0UDt6IW4X-HPIN?usp=share_link).
+- [x] 04/2023, release front-view DeLiVER. Download from [**Hugging Face**](https://huggingface.co/datasets/InSAI-Lab/DELIVER).
+- [x] 04/2023, release CMNeXt model weights. Download from [**Hugging Face**](https://huggingface.co/InSAI-Lab/CMNeXt).
 
 ## DeLiVER dataset
 
@@ -56,7 +56,7 @@ DeLiVER multimodal dataset including (a) four adverse conditions out of five con
 
 
 ### Data folder structure
-**Download DELIVER dataset from [**GoogleDrive**](https://drive.google.com/file/d/1P-glCmr-iFSYrzCfNawgVI9qKWfP94pm/view?usp=share_link) (~12.2 GB)**. 
+**Download DELIVER dataset from [**Hugging Face**](https://huggingface.co/datasets/InSAI-Lab/DELIVER) (~12.2 GB)**. 
 
 The `data/DELIVER` folder is structured as:
 ```text
@@ -147,60 +147,60 @@ data/
 
 | Model-Modal      | #Params(M) | GFLOPs | mIoU   | weight |
 | :--------------- | :---------- | :----- | :----- | :------ |
-| CMNeXt-RGB       | 25.79      | 38.93 | 57.20 | [GoogleDrive](https://drive.google.com/drive/folders/1OWteEOrjfrC3VNg3sxJFZPHz9urkZ3lm?usp=share_link) |
-| CMNeXt-RGB-E     | 58.69      | 62.94 | 57.48 | [GoogleDrive](https://drive.google.com/drive/folders/1OWteEOrjfrC3VNg3sxJFZPHz9urkZ3lm?usp=share_link) |
-| CMNeXt-RGB-L     | 58.69      | 62.94 | 58.04 | [GoogleDrive](https://drive.google.com/drive/folders/1OWteEOrjfrC3VNg3sxJFZPHz9urkZ3lm?usp=share_link) |
-| CMNeXt-RGB-D     | 58.69      | 62.94 | 63.58 | [GoogleDrive](https://drive.google.com/drive/folders/1OWteEOrjfrC3VNg3sxJFZPHz9urkZ3lm?usp=share_link) |
-| CMNeXt-RGB-D-E   | 58.72      | 64.19 | 64.44 | [GoogleDrive](https://drive.google.com/drive/folders/1OWteEOrjfrC3VNg3sxJFZPHz9urkZ3lm?usp=share_link) |
-| CMNeXt-RGB-D-L   | 58.72      | 64.19 | 65.50 | [GoogleDrive](https://drive.google.com/drive/folders/1OWteEOrjfrC3VNg3sxJFZPHz9urkZ3lm?usp=share_link) |
-| CMNeXt-RGB-D-E-L | 58.73      | 65.42 | 66.30 | [GoogleDrive](https://drive.google.com/drive/folders/1OWteEOrjfrC3VNg3sxJFZPHz9urkZ3lm?usp=share_link) |
+| CMNeXt-RGB       | 25.79      | 38.93 | 57.20 | [Hugging Face](https://huggingface.co/InSAI-Lab/CMNeXt/tree/main/DELIVER) |
+| CMNeXt-RGB-E     | 58.69      | 62.94 | 57.48 | [Hugging Face](https://huggingface.co/InSAI-Lab/CMNeXt/tree/main/DELIVER) |
+| CMNeXt-RGB-L     | 58.69      | 62.94 | 58.04 | [Hugging Face](https://huggingface.co/InSAI-Lab/CMNeXt/tree/main/DELIVER) |
+| CMNeXt-RGB-D     | 58.69      | 62.94 | 63.58 | [Hugging Face](https://huggingface.co/InSAI-Lab/CMNeXt/tree/main/DELIVER) |
+| CMNeXt-RGB-D-E   | 58.72      | 64.19 | 64.44 | [Hugging Face](https://huggingface.co/InSAI-Lab/CMNeXt/tree/main/DELIVER) |
+| CMNeXt-RGB-D-L   | 58.72      | 64.19 | 65.50 | [Hugging Face](https://huggingface.co/InSAI-Lab/CMNeXt/tree/main/DELIVER) |
+| CMNeXt-RGB-D-E-L | 58.73      | 65.42 | 66.30 | [Hugging Face](https://huggingface.co/InSAI-Lab/CMNeXt/tree/main/DELIVER) |
 
 
 ### KITTI360 dataset
 
 | Model-Modal      | mIoU   | weight |
 | :--------------- | :----- | :------ |
-| CMNeXt-RGB       | 67.04 | [GoogleDrive](https://drive.google.com/drive/folders/1OXfBNNcwMCQWGmvOqvkAHd8xViKJ6djf?usp=share_link) |
-| CMNeXt-RGB-E     | 66.13 | [GoogleDrive](https://drive.google.com/drive/folders/1OXfBNNcwMCQWGmvOqvkAHd8xViKJ6djf?usp=share_link) |
-| CMNeXt-RGB-L     | 65.26 | [GoogleDrive](https://drive.google.com/drive/folders/1OXfBNNcwMCQWGmvOqvkAHd8xViKJ6djf?usp=share_link) |
-| CMNeXt-RGB-D     | 65.09 | [GoogleDrive](https://drive.google.com/drive/folders/1OXfBNNcwMCQWGmvOqvkAHd8xViKJ6djf?usp=share_link) |
-| CMNeXt-RGB-D-E   | 67.73 | [GoogleDrive](https://drive.google.com/drive/folders/1OXfBNNcwMCQWGmvOqvkAHd8xViKJ6djf?usp=share_link) |
-| CMNeXt-RGB-D-L   | 66.55 | [GoogleDrive](https://drive.google.com/drive/folders/1OXfBNNcwMCQWGmvOqvkAHd8xViKJ6djf?usp=share_link) |
-| CMNeXt-RGB-D-E-L | 67.84 | [GoogleDrive](https://drive.google.com/drive/folders/1OXfBNNcwMCQWGmvOqvkAHd8xViKJ6djf?usp=share_link) |
+| CMNeXt-RGB       | 67.04 | [Hugging Face](https://huggingface.co/InSAI-Lab/CMNeXt/tree/main/KITTI360) |
+| CMNeXt-RGB-E     | 66.13 | [Hugging Face](https://huggingface.co/InSAI-Lab/CMNeXt/tree/main/KITTI360) |
+| CMNeXt-RGB-L     | 65.26 | [Hugging Face](https://huggingface.co/InSAI-Lab/CMNeXt/tree/main/KITTI360) |
+| CMNeXt-RGB-D     | 65.09 | [Hugging Face](https://huggingface.co/InSAI-Lab/CMNeXt/tree/main/KITTI360) |
+| CMNeXt-RGB-D-E   | 67.73 | [Hugging Face](https://huggingface.co/InSAI-Lab/CMNeXt/tree/main/KITTI360) |
+| CMNeXt-RGB-D-L   | 66.55 | [Hugging Face](https://huggingface.co/InSAI-Lab/CMNeXt/tree/main/KITTI360) |
+| CMNeXt-RGB-D-E-L | 67.84 | [Hugging Face](https://huggingface.co/InSAI-Lab/CMNeXt/tree/main/KITTI360) |
 
 ### NYU Depth V2
 
 | Model-Modal      | mIoU   | weight |
 | :--------------- | :----- | :------ |
-| CMNeXt-RGB-D (MiT-B4)     | 56.9 | [GoogleDrive](https://drive.google.com/drive/folders/1OXrMv1Mi6E-vyedlkNpfc5ibJeJDfwqq?usp=share_link) |
+| CMNeXt-RGB-D (MiT-B4)     | 56.9 | [Hugging Face](https://huggingface.co/InSAI-Lab/CMNeXt/tree/main/NYU_Depth_V2) |
 ### MFNet
 
 | Model-Modal      | mIoU   | weight |
 | :--------------- | :----- | :------ |
-| CMNeXt-RGB-D (MiT-B4)     | 59.9 | [GoogleDrive](https://drive.google.com/drive/folders/1OaOHMbD5P_HPwTzzXwdYRUFIiGkyFQfP?usp=share_link) |
+| CMNeXt-RGB-D (MiT-B4)     | 59.9 | [Hugging Face](https://huggingface.co/InSAI-Lab/CMNeXt/tree/main/MFNet) |
 ### UrbanLF
 There are **real** and **synthetic** datasets. 
 
 | Model-Modal     | Real   | weight | Syn    | weight |
 | :-------------- | :----- | :----- | :----- | :----- |
-| CMNeXt-RGB      | 82.20 | [GoogleDrive](https://drive.google.com/drive/folders/1OfepYOYaM8I0itjuHK4csqmAuu_zHol-?usp=share_link) | 78.53 | [GoogleDrive](https://drive.google.com/drive/folders/1OfepYOYaM8I0itjuHK4csqmAuu_zHol-?usp=share_link) |
-| CMNeXt-RGB-LF8  | 83.22 | [GoogleDrive](https://drive.google.com/drive/folders/1OfepYOYaM8I0itjuHK4csqmAuu_zHol-?usp=share_link) | 80.74 | [GoogleDrive](https://drive.google.com/drive/folders/1OfepYOYaM8I0itjuHK4csqmAuu_zHol-?usp=share_link) |
-| CMNeXt-RGB-LF33 | 82.62 | [GoogleDrive](https://drive.google.com/drive/folders/1OfepYOYaM8I0itjuHK4csqmAuu_zHol-?usp=share_link) | 80.98 | [GoogleDrive](https://drive.google.com/drive/folders/1OfepYOYaM8I0itjuHK4csqmAuu_zHol-?usp=share_link) |
-| CMNeXt-RGB-LF80 | 83.11 | [GoogleDrive](https://drive.google.com/drive/folders/1OfepYOYaM8I0itjuHK4csqmAuu_zHol-?usp=share_link) | 81.02 | [GoogleDrive](https://drive.google.com/drive/folders/1OfepYOYaM8I0itjuHK4csqmAuu_zHol-?usp=share_link) |
+| CMNeXt-RGB      | 82.20 | [Hugging Face](https://huggingface.co/InSAI-Lab/CMNeXt/tree/main/UrbanLF) | 78.53 | [Hugging Face](https://huggingface.co/InSAI-Lab/CMNeXt/tree/main/UrbanLF) |
+| CMNeXt-RGB-LF8  | 83.22 | [Hugging Face](https://huggingface.co/InSAI-Lab/CMNeXt/tree/main/UrbanLF) | 80.74 | [Hugging Face](https://huggingface.co/InSAI-Lab/CMNeXt/tree/main/UrbanLF) |
+| CMNeXt-RGB-LF33 | 82.62 | [Hugging Face](https://huggingface.co/InSAI-Lab/CMNeXt/tree/main/UrbanLF) | 80.98 | [Hugging Face](https://huggingface.co/InSAI-Lab/CMNeXt/tree/main/UrbanLF) |
+| CMNeXt-RGB-LF80 | 83.11 | [Hugging Face](https://huggingface.co/InSAI-Lab/CMNeXt/tree/main/UrbanLF) | 81.02 | [Hugging Face](https://huggingface.co/InSAI-Lab/CMNeXt/tree/main/UrbanLF) |
 
 ### MCubeS
 | Model-Modal      | mIoU   | weight |
 | :--------------- | :----- | :----- |
-| CMNeXt-RGB       | 48.16 | [GoogleDrive](https://drive.google.com/drive/folders/1OgbqpT6TSCPPsoJn0sh2wfXNy5mL5nk9?usp=share_link) |
-| CMNeXt-RGB-A     | 48.42 | [GoogleDrive](https://drive.google.com/drive/folders/1OgbqpT6TSCPPsoJn0sh2wfXNy5mL5nk9?usp=share_link) |
-| CMNeXt-RGB-A-D   | 49.48 | [GoogleDrive](https://drive.google.com/drive/folders/1OgbqpT6TSCPPsoJn0sh2wfXNy5mL5nk9?usp=share_link) |
-| CMNeXt-RGB-A-D-N | 51.54 | [GoogleDrive](https://drive.google.com/drive/folders/1OgbqpT6TSCPPsoJn0sh2wfXNy5mL5nk9?usp=share_link) |
+| CMNeXt-RGB       | 48.16 | [Hugging Face](https://huggingface.co/InSAI-Lab/CMNeXt/tree/main/MCubeS) |
+| CMNeXt-RGB-A     | 48.42 | [Hugging Face](https://huggingface.co/InSAI-Lab/CMNeXt/tree/main/MCubeS) |
+| CMNeXt-RGB-A-D   | 49.48 | [Hugging Face](https://huggingface.co/InSAI-Lab/CMNeXt/tree/main/MCubeS) |
+| CMNeXt-RGB-A-D-N | 51.54 | [Hugging Face](https://huggingface.co/InSAI-Lab/CMNeXt/tree/main/MCubeS) |
 
 
 
 ## Training
 
-Before training, please download [pre-trained SegFormer](https://drive.google.com/drive/folders/10XgSW8f7ghRs9fJ0dE-EV8G2E_guVsT5?usp=sharing), such as `checkpoints/pretrained/segformer/mit_b2.pth`.
+Before training, please download [pre-trained SegFormer](https://huggingface.co/InSAI-Lab/CMNeXt/tree/main/pretrained/segformers), such as `checkpoints/pretrained/segformer/mit_b2.pth`.
 
 ```text
 checkpoints/pretrained/segformer
@@ -224,7 +224,7 @@ python -m torch.distributed.launch --nproc_per_node=4 --use_env tools/train_mm.p
 
 
 ## Evaluation
-To evaluate CMNeXt models, please download respective model weights ([**GoogleDrive**](https://drive.google.com/drive/folders/1MZaaZ5_rEVSjns3TBM0UDt6IW4X-HPIN?usp=share_link)) as:
+To evaluate CMNeXt models, please download respective model weights ([**Hugging Face**](https://huggingface.co/InSAI-Lab/CMNeXt)) as:
 
 
 ```text
